@@ -6,7 +6,6 @@ import {MdFavorite, MdHelp} from "react-icons/md";
 import {FaWallet} from "react-icons/fa";
 function Navbar() {
 const [nav,setNav]=useState(false);
-console.log(nav);
 
   return (
     <div className="max-w-[1640] mx-auto flex justify-between items-center p-3 "  >
