@@ -2,13 +2,15 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import HeadlineCards from './components/HeadlineCards';
 import Food from "./components/Food";
+import Category from './components/Category';
 function App() {
   return (
-    <div className="bg-gray-300 w-screen h-screen"> 
+    <div className="bg-gray-300 w-full h-full"> 
       <Navbar/>
       <Hero/>
       <HeadlineCards/>
       <Food/>
+      <Category/>
     </div>
   );
 }

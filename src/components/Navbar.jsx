@@ -27,14 +27,14 @@ const [nav,setNav]=useState(false);
       {/* Arama çubuğu */}
 
         <div className=" bg-gray-200  items-center flex rounded-full px-2
-        w-[200px] sm:w-[300px] lg:w-[400px]   " >
+        w-[200px] sm:w-[300px] lg:w-[400px] lg:[margin-right:99px]  " >
             <AiOutlineSearch size={25} />
             <input type="text" placeholder="Search" className="bg-transparent p-2 w-full focus:outline-none "/> 
         </div>
 
         {/* Kart Butonu */}
 
-        <button className="rounded-full bg-black text-white  items-center px-2  hidden md:flex lg:flex " >
+        <button className="rounded-full bg-black text-white  items-center px-2  hidden md:flex lg:flex mr-9  " >
             <BsFillCartFill size={20} className="mr-2" /> Cart
         </button>
 
